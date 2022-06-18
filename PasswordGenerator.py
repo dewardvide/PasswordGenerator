@@ -17,14 +17,14 @@ def randomize():
 while True:
     option = input("""Please select an option\n1.Custom Random Password\n2.Random Mode\n3.Leave\n""")
     if option == "1":
-    while True:
-        no_of_sym = int(input("Enter the number of symbols: "))
-        no_of_num = int(input("Enter the number of numbers: "))
-        no_of_uc = int(input("Enter the number of Upper Case letters: "))
-        no_of_lc = int(input("Enter the number of Lowercase Letters: "))
-        randomize()
-        print("Password: ", password)
-        break
+        while True:
+            no_of_sym = int(input("Enter the number of symbols: "))
+            no_of_num = int(input("Enter the number of numbers: "))
+            no_of_uc = int(input("Enter the number of Upper Case letters: "))
+            no_of_lc = int(input("Enter the number of Lowercase Letters: "))
+            randomize()
+            print("Password: ", password)
+            break
 
     elif option == "2":
         while True:
