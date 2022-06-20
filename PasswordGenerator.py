@@ -1,6 +1,6 @@
 import random
 import string
-print("==== Random Number generator ====")
+print("==== Secure Password Generator ====")
 
 def randomize():
     sym = ''.join(random.choice(string.punctuation) for i in range(no_of_sym))
