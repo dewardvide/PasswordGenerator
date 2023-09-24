@@ -1,2 +1,2 @@
 # PasswordGenerator
-Generates custom or randomised passwords.
+A command line based password generator. 
